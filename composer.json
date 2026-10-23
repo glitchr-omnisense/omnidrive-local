@@ -1,0 +1,25 @@
+{
+    "name": "omnidrive/local",
+    "type": "library",
+    "description": "Omnidrive Local: a directory of this machine as an omnidrive drive, through league/flysystem-local - its root, its Unix modes, its public address, the file's local path.",
+    "keywords": ["storage", "filesystem", "local", "flysystem", "omnidrive"],
+    "homepage": "https://github.com/glitchr-studio/omnidrive-local",
+    "license": "MIT",
+    "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
+    "require": {
+        "php": ">=8.2",
+        "league/flysystem-local": "^3.0",
+        "omniscient/omnidrive": "^1.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {"Omnidrive\\Local\\": ""},
+        "exclude-from-classmap": ["/Tests/"]
+    },
+    "autoload-dev": {
+        "psr-4": {"Omnidrive\\Local\\Tests\\": "Tests/"}
+    },
+    "config": {"sort-packages": true}
+}
