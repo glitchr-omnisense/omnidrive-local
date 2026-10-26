@@ -1,10 +1,10 @@
 # omnidrive/local
 
-A directory of this machine as an [omnidrive](https://github.com/glitchr-studio/omnidrive) drive,
+A directory of this machine as an [omnidrive](https://github.com/glitchr-omnisense/omnidrive) drive,
 through league/flysystem-local.
 
 ```sh
-composer require omniscient/omnidrive omnidrive/local
+composer require omnisense/omnidrive omnidrive/local
 ```
 
 ```php

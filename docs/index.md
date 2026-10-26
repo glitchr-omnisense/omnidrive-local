@@ -1,18 +1,18 @@
 # omnidrive/local
 
-A directory of this machine as an [omniscient/omnidrive](https://github.com/glitchr-studio/omnidrive)
+A directory of this machine as an [omnisense/omnidrive](https://github.com/glitchr-omnisense/omnidrive)
 drive, through league/flysystem-local (`League\Flysystem\Local\LocalFilesystemAdapter`). No
 server, no network: the drive's paths are files under its `root`, and `localPath()` gives them.
 
 ## Installation
 
 ```sh
-composer require omniscient/omnidrive omnidrive/local
+composer require omnisense/omnidrive omnidrive/local
 ```
 
-Requires PHP 8.2, `omniscient/omnidrive` (1.x) and `league/flysystem-local` (^3.0). Under Symfony
+Requires PHP 8.2, `omnisense/omnidrive` (1.x) and `league/flysystem-local` (^3.0). Under Symfony
 or Laravel, a local storage of the framework is already a drive through omnibridge
-([Hosts](https://github.com/glitchr-studio/omnidrive/blob/1.x/docs/hosts.md)); this factory is for
+([Hosts](https://github.com/glitchr-omnisense/omnidrive/blob/1.x/docs/hosts.md)); this factory is for
 plain PHP and for drives the framework does not configure.
 
 ## Credentials
@@ -119,4 +119,4 @@ too); a link refused, then skipped; the root made at once or lazily; the drive i
 
 An independent, unofficial client, not affiliated with The PHP League. Whoever runs it is responsible for the data it stores and the
 access it gives (a public or temporary address serves the file to whoever holds it); see the core's
-Responsibility section ([omniscient/omnidrive](https://github.com/glitchr-studio/omnidrive#responsibility)).
+Responsibility section ([omnisense/omnidrive](https://github.com/glitchr-omnisense/omnidrive#responsibility)).
