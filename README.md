@@ -36,4 +36,6 @@ $drives->get('uploads')->localPath('avatars/1.png');   // .../var/uploads/avatar
   refused, then skipped; the root made at once or lazily; the drive in plain PHP (`bare`).
 - Not verified: Windows paths and permissions.
 
-License: MIT. Unofficial; not affiliated with The PHP League.
+## Responsibility
+
+Unofficial; not affiliated with The PHP League. Whoever runs this package answers for the files it writes and for the access a public address of the drive gives to them. MIT licence.
