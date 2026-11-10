@@ -36,6 +36,14 @@ $drives->get('uploads')->localPath('avatars/1.png');   // .../var/uploads/avatar
   refused, then skipped; the root made at once or lazily; the drive in plain PHP (`bare`).
 - Not verified: Windows paths and permissions.
 
+## Usage policy
+
+`policy.json` (omnisense/contracts' schema, named in `composer.json` as `extra.omnisense.policy`;
+read on 2026-11-10): No third party: a directory of the site's own machine. No limit (`[]`), no key.
+Nothing in the drive counts calls; [the family's
+page](https://github.com/glitchr-omnisense/omnidrive/blob/1.x/docs/policies.md) has every
+provider's.
+
 ## Responsibility
 
 Unofficial; not affiliated with The PHP League. Whoever runs this package answers for the files it writes and for the access a public address of the drive gives to them. MIT licence.
